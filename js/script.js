@@ -45,7 +45,7 @@ class MovieService {
 	}
 }
 
-let service = new MovieService("http://www.omdbapi.com/");
+let service = new MovieService("https://www.omdbapi.com/");
 let currPage = -1;
 let totalPages = -1;
 let currentTitle;
